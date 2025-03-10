@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(253, 222, 211);
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(207, 167, 153);
+    padding: 10px;
+    border-radius: 20px;
+    width: 40rem;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.radio-btn{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100%;
+
+}

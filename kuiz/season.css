@@ -1,0 +1,41 @@
+*::before,
+*::after{
+    box-sizing: content-box;
+}
+
+body{
+    background-color: rgb(253, 222, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(207, 167, 153);
+    border-radius: 30px;
+}
+
+img{
+    width: 80%;
+    padding: 15px;
+}
+
+.card-text{
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding: 10px;
+}
+
+button{
+    color:white;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: black;
+}
